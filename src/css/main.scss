@@ -114,7 +114,11 @@ body {
   font-size: 1.2em;
 }
 
-// --> date estilos default
+.card-testimonial__date {
+  color: var(--very-dark-grayish-blue);
+  align-self: flex-end;
+  font-family: monospace;
+}
 
 .card-testimonial-violet {
   background-color: var(--moderate-violet);
@@ -128,39 +132,36 @@ body {
   }
 
   .card-testimonial__job,
-  .card-testimonial__secondary-text {
+  .card-testimonial__secondary-text,
+  .card-testimonial__date {
     color: var(--light-violet);
   }
 
   .card-testimonial__photo {
     border: 2px solid var(--light-violet);
   }
-
-  // --> date estilos violet
 }
 
 .card-testimonial-gray {
   background-color: var(--very-dark-grayish-blue);
 
   .card-testimonial__name,
-  .card-testimonial__main-text {
+  .card-testimonial__main-text,
+  .card-testimonial__date {
     color: var(--white);
   }
-
-  // --> date estilos gray
 }
 
 .card-testimonial-dark {
   background-color: var(--very-dark-blackish-blue);
 
   .card-testimonial__name,
-  .card-testimonial__main-text {
+  .card-testimonial__main-text,
+  .card-testimonial__date {
     color: var(--white);
   }
 
   .card-testimonial__photo {
     border: 2px solid var(--light-violet);
   }
-
-  // --> date estilos dark
 }
